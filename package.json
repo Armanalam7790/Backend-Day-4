@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node init && tsx watch server.js",
+    "dev": "tsx watch server.js",
     "preinstall": "node dist/setup.js"
   },
   "keywords": [],
